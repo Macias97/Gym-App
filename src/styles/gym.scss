@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.gym_container {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  width: 550px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 4px 13px rgba(255, 255, 255, 0.8);
+  font-family: "Josefin Sans", sans-serif;
+
+  .gym_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    h1 {
+      margin-bottom: 0.5em;
+    }
+
+    select {
+      background-color: transparent;
+      cursor: pointer;
+      border: 1px solid black;
+      padding: 0.3em;
+    }
+  }
+
+  .lista {
+    padding: 1em;
+    background-color: transparent;
+  }
+}

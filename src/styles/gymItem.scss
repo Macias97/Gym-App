@@ -1,0 +1,23 @@
+.gymItem {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0.8em;
+
+  .start {
+    button {
+      width: 4em;
+      cursor: pointer;
+    }
+  }
+
+  .options select {
+    margin: 0 0.5em;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+}
